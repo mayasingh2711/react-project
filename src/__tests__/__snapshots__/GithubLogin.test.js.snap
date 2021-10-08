@@ -12,7 +12,7 @@ exports[`Renders with \`buttonText\` 1`] = `
 <button
   onClick={[Function]}
 >
-  Foo
+  goo
 </button>
 `;
 
