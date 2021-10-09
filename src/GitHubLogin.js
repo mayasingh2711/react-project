@@ -52,7 +52,7 @@ class GitHubLogin extends Component {
 
   onSuccess = (data) => {
     if (!data.code) {
-      return this.onFailure(new Error('\'code\' not found'));
+      return this.onFailure(new Error('\'code\' not found here'));
     }
 
     this.props.onSuccess(data);
